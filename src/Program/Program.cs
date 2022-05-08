@@ -33,6 +33,11 @@ namespace Full_GRASP_And_SOLID
 
             printer = new FilePrint();
             printer.PrintRecipe(recipe);
+
+            /*
+            Se utiliza tambien LSP y Polimorfismo ya que al instanciar las dos nuevas clases estoy recibiendo 
+            los mismo valores que anteriormente recibia pero con un formato diferente.
+            */
         }
 
         private static void PopulateCatalogs()
